@@ -138,10 +138,9 @@
     display: none;
   }
 }
-.mm-btn[data-target="#mm-1"] {
-  display: none;
-}
-
+/*.mm-btn[data-target="#mm-1"] {
+    display: none;
+}*/
 @media only screen and (max-width: 768px) {
   .lines {
     display: none;
@@ -1002,3 +1001,4 @@ html.mm-blocking #mm-blocker {
   font-size: 14px;
   margin-left: 10px;
 }
+/*# sourceMappingURL=main.css.map */
