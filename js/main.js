@@ -29,13 +29,14 @@ $(function () {
     $(".toggle-mnu").removeClass("on");
   });
 });
-$(window).scroll(function () {
-  if ($(this).scrollTop() > 1) {
-    $('mm-panel').addClass('mm-current');
-  } else {
-    $('#mm-0').removeClass('mm-current');
-  }
-});
+/*$(window).scroll(function () {
+    if ($(this).scrollTop() > 1) {
+        $('mm-panel').addClass('mm-current');
+    } else {
+        $('#mm-0').removeClass('mm-current');
+    }
+});*/
+
 /*
 $(document).ready(function () {
     var elem = document.getElementById("mm-1");
