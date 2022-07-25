@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>New site</title>
+
+
+
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+</head>
+
+<body>
+
+
+    <header class="header">
+    <div class="container">
+        <div class="header__wrapper header-wrapper--services">
+            <div class="header__left">
+                <div class="header__logo">
+                    <a class="header__img" href="/"><img src="./img/logo.png" alt="alt"></a>
+                    <div class="header__logo-desc">
+                        Торгово-строительная фирма
+                    </div>
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__top">
+                    <div class="header__info">
+                        <svg class="header__ic">
+                            <use xlink:href="img/sprite.svg#marker"></use>
+                        </svg>
+                        <span> Богородск,<br>Нижегородская область</span>
+
+                    </div>
+                    <div class="header__info">
+                        <svg class="header__ic">
+                            <use xlink:href="img/sprite.svg#clock"></use>
+                        </svg>
+                        <span> пн-пт. 8.00 -17.00</span>
+                    </div>
+                    <a href="tel:88317023690" class="header__phone">+7 (83170) 2-36-90</a>
+                    <a href="tel:879092971355" class="header__phone">+7 (909) 297-13-55</a>
+                </div>
+                <div class="header__bottom">
+                    <div class="nav-wrp">
+                        <nav class="nav" data-nav>
+                            <ul class="nav__list">
+                                <li class="active nav__item"><a href="/services.html" class="nav__link">Услуги</a></li>
+                                <li class="nav__item"><a href="#about" class="nav__link">Дома</a></li>
+                                <li class="nav__item"><a href="/support.html" class="nav__link">Наши объекты</a></li>
+                                 <li class="nav__item nav__item--hidden"><a href="/" class="nav__link">Каталог</a></li>
+
+                                <li class="nav__item"><a href="/support.html" class="nav__link">Контакты</a></li>
+                               
+                            </ul>
+                            <div class="desktop-hidden">
+                                <div class="mobile-phones">
+                                    <a href="tel:88317023690" class="header__phone">+7 (83170) 2-36-90</a>
+                                    <a href="tel:879092971355" class="header__phone">+7 (909) 297-13-55</a>
+                                </div>
+                                <div class="mobile__info">
+                                    <div class="header__info mobile-info">
+                                        <svg class="header__ic">
+                                            <use xlink:href="img/sprite.svg#marker"></use>
+                                        </svg>
+                                        <span> Богородск,<br>Нижегородская область</span>
+
+                                    </div>
+                                    <div class="header__info mobile-info">
+                                        <svg class="header__ic">
+                                            <use xlink:href="img/sprite.svg#clock"></use>
+                                        </svg>
+                                        <span> пн-пт. 8.00 -17.00</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </nav>
+                        <div class="burger-wrp">
+                            <div class="burger-title">Меню</div>
+                            <button class="burger" data-burger aria-label="Открыть меню" aria-expanded="false">
+                                <span class="burger__line"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__btn callme">
+                        <div data-toggle="modal" data-target="#callmemodal" href="#">Обратный звонок</div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="header__catalog">
+        <div class="container">
+            <div class="header__catalog-wrapper header__catalog-wrapper--services">
+
+                <a href="#" class="header__bluebtn header__bluebtn--services">
+
+                    Каталог
+                </a>
+
+                <form class="header__form" action="#">
+                    <input class="header__search" type="text" placeholder="Поиск">
+                    <button class="header__search-btn" type="submit">
+                        <svg class="header__icon-search">
+                            <use xlink:href="img/sprite.svg#search"></use>
+                        </svg>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+
+</html>

@@ -618,7 +618,7 @@ html.mm-blocking #mm-blocker {
 
 .nav__link {
   font-size: 15px;
-  color: #000;
+  color: #282828;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -901,7 +901,7 @@ html.mm-blocking #mm-blocker {
   font-size: 14px;
   line-height: 1.3;
   margin-bottom: 30px;
-  color: #000;
+  color: #282828;
   font-weight: 600;
 }
 .product_card .product_buy {
@@ -913,7 +913,7 @@ html.mm-blocking #mm-blocker {
 .product_card .product_buy .price {
   font-weight: 700;
   font-size: 20px;
-  color: #000;
+  color: #282828;
 }
 .product_card .product_buy .cart_btn {
   background: #549625;
@@ -1004,5 +1004,59 @@ html.mm-blocking #mm-blocker {
 .btn--or span {
   font-size: 14px;
   margin-left: 10px;
+}
+
+.filters {
+  background: #fff;
+  max-width: 600px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: relative;
+}
+
+.header__catalog-wrapper--services {
+  justify-content: flex-start;
+}
+
+.header__bluebtn--services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+}
+.header__bluebtn--services:hover {
+  color: #fff;
+  text-decoration: none;
+  background: #0674cd;
+}
+
+.burger-title {
+  display: none;
+}
+
+.nav__item--hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .burger-title {
+    display: block;
+    margin-right: 15px;
+  }
+  .burger-wrp {
+    display: flex;
+    align-items: center;
+  }
+  .header-wrapper--services {
+    align-items: center;
+  }
+  .nav__item--hidden {
+    display: block;
+  }
+  .header__bluebtn--services {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

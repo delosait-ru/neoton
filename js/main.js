@@ -10,15 +10,13 @@ $(function () {
   $(".sf-menu").superfish({
     delay: 200,
     speed: "fast",
-    cssArrows: false,
-    pathLevels: 3,
-    speedOut: 'fast'
+    cssArrows: false
   }).after("<div id='mobile-menu'>").clone().appendTo("#mobile-menu");
   $("#mobile-menu").find("*").attr("style", "");
   $("#mobile-menu").children("ul").removeClass("sf-menu").parent().mmenu({
     extensions: ['widescreen', 'theme-white', 'effect-menu-slide', 'pagedim-black'],
     navbar: {
-      title: "Каталог"
+      title: "Меню"
     }
   });
   $(".toggle-mnu").click(function () {
